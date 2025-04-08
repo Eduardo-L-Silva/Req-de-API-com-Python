@@ -69,7 +69,7 @@ def main():
         smtp_username = gmail_user
         smtp_password = gmail_pass
 
-        send_email_with_attachment(sender_email, receiver_email, subject, body, filename, smtp_server, smtp_port,
+        send_email_with_attachment(sender_email, receiver_email, subject, body, filename, smtp_server, smtp_port, > 'GET': (sum),
                                    smtp_username, smtp_password)
         print("Arquivo enviado com sucesso!")
 
